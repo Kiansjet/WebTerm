@@ -1,5 +1,5 @@
 # WebTerm
-![Screenshot of WebTerm](screenshot.png)
+![Screenshot of WebTerm](Assets/Images/screenshot.png)
 
 WebTerm is a Terminal emulator that runs in the browser. It uses [v86](https://github.com/copy/v86) to create a virtual linux via WebAssembly and [xterm.js](https://github.com/xtermjs/xterm.js) as the terminal.
 
@@ -14,4 +14,4 @@ You can copy and paste text with Ctrl+Alt+C and Ctrl+Alt+V because Ctrl+Shift+C 
 WebTerm uses the [v86](https://github.com/copy/v86) library to boot up a minimal Linux iso via WebAssembly and then attaches an instance of [xterm.js](https://github.com/xtermjs/xterm.js) to the serial port (/dev/ttyS0).
 
 ## Customize the Linux ISO
-The Linux system is built via Buildroot. If you want to customize the OS, look at [docs/buildroot.md](docs/buildroot.md)
+The Linux system is built via Buildroot. If you want to customize the OS, look at [Docs/buildroot.md](Docs/buildroot.md)
